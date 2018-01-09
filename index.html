@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+<script src="js.js"></script>
+
+	<html>
+		<head>
+
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<meta name="google-signin-client_id" content="490203299643-otdqvb9q6cscfoq2j8hgodq83casdsjh.apps.googleusercontent.com
+">
+		<title> Note 1.0 </title>
+		</head>
+	<body>
+
+
+		<div id ="header">
+
+		<div id = "name"> Note 1.0 </div>
+	</div>
+	<div class="clear"></div>
+	<div id ="text">
+		<textarea id ="area" rows ="20" cols="45"  > </textarea>
+	</div>	
+	<div class="g-signin2" data-onsuccess="onSignIn"></div>
+	<div id="buttons">
+	<p><a href="javascript:save();" class="button">Save</a>
+	<a href="javascript:clear();" class="button">Clear</a>
+	<a href="javascript:display_saved_note();" class="button">View</a>
+	</p>
+			<div class="g-signin2" data-onsuccess="javascript:onSignIn()"></div>
+
+	</div>
+	<div class ="footer">
+		<p> Powered by JOSS128</p>
+
+	</div>
+	</body>
+	</html>	
